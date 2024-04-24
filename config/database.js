@@ -4,9 +4,9 @@
 module.exports = {
     development: {
         username: process.env.DB_USER || 'root',
-        //usernam: 'root',
+        //username: 'root',
 
-        password: 'senaisp',        // Senha do banco de dados
+        password: 'root',        // Senha do banco de dados
         database: 'carometro',      // Nome do banco de dados
         host: 'localhost',          // Endereço de servidor do banco de dados
         port: 3306,                 // Porta do servidor do banco de dados
